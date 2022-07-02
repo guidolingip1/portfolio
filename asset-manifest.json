@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.156bd82b.css",
+    "main.js": "/portfolio/static/js/main.8518a3d3.js",
+    "static/media/wordle.gif": "/portfolio/static/media/wordle.704cb83e653e77440ecc.gif",
+    "static/media/sw.gif": "/portfolio/static/media/sw.be4a5d7a7d82abbda133.gif",
+    "static/media/pythonCrawler.gif": "/portfolio/static/media/pythonCrawler.c37ac0f0fc2dc2ffe72b.gif",
+    "static/media/github.gif": "/portfolio/static/media/github.abe41d5c303f230845c3.gif",
+    "static/media/eu2.jpg": "/portfolio/static/media/eu2.45637494170872cbb7e7.jpg",
+    "static/media/node.png": "/portfolio/static/media/node.3cc0f91635eb988d53a8.png",
+    "static/media/react.png": "/portfolio/static/media/react.9de556ebcbbfc0ea51d3.png",
+    "static/media/git.png": "/portfolio/static/media/git.95e92c065c8ce5f9147a.png",
+    "static/media/adobexd.png": "/portfolio/static/media/adobexd.ac2b4956d49dfcc3bf38.png",
+    "static/media/python.png": "/portfolio/static/media/python.c2e62eed30e2be73d44b.png",
+    "static/media/waves.svg": "/portfolio/static/media/waves.57b0f19438b676d78f62.svg",
+    "index.html": "/portfolio/index.html",
+    "main.156bd82b.css.map": "/portfolio/static/css/main.156bd82b.css.map",
+    "main.8518a3d3.js.map": "/portfolio/static/js/main.8518a3d3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.156bd82b.css",
+    "static/js/main.8518a3d3.js"
+  ]
+}
