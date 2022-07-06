@@ -1,45 +1,43 @@
-import { Vitrine } from "../../components/Vitrine/Vitrine.component";
-import GITHUB_REPOS from "../../data/github-repos";
-import BLOG_POSTS from "../../data/blog-posts";
+import { BsLinkedin } from "react-icons/bs";
+import { FaGithub } from "react-icons/fa";
+import { AiFillMediumSquare } from "react-icons/ai";
+import CV from "../../assets/cv.pdf";
 
 /* Styles*/
-import "./Home.styles.css";
 import eu from "../../assets/images/eu2.jpg";
+//import eu from "../../assets/images/yo7.jpg";
+import "./Home.styles.css";
 
 export const Home = () => {
   return (
-    <div className="home">
-      <div className="foto-descricao">
-        <img src={eu} alt="Minha foto de perfil" className="foto-de-perfil" />
-        <div className="descricao">
-          <p className="descricao-principal">
-            Hello! I'm &nbsp;
-            <span className="span-guilherme">"Guilherme</span>
-            <span className="span-guidolin">Guidolin"</span>
-            <br />
-            and i <span className="span-heart">&#128151;</span> Fullstack Development
-          </p>
-          <p className="descricao-secundaria">
-            Front: HTML + CSS/SCSS + JavaScript/Typescript + ReactJS
-            <br />
-            Back: NodeJS + Express &#40;NestJS&#41; + Insomnia/Postman
-          </p>
+    <div className="container home__container">
+      <div className="home__description">
+        <h4>Hello I'm</h4>
+        <h2>Guilherme Guidolin</h2>
+        <h5>
+          and i <span className="span-heart">&#128151;</span> Fullstack Development
+        </h5>
+        <div className="cta">
+          <a href={CV} download className="btn" target="_blank" rel="noreferrer">
+            Download CV
+          </a>
+          <a href="#contact" className="btn btn-primary" rel="noreferrer">
+            Let's Talk
+          </a>
+        </div>
+        <img src={eu} alt="Guilherme and his dog" className="home__description-picture" />
+        <div className="header__socials">
+          <a href="https://www.linkedin.com/in/guilherme-guidolin/" target="_blank" rel="noopener noreferrer">
+            <BsLinkedin />
+          </a>
+          <a href="https://github.com/guidolingip1" target="_blank" rel="noopener noreferrer">
+            <FaGithub />
+          </a>
+          <a href="https://medium.com/@guilhermeguidolin" target="_blank" rel="noopener noreferrer">
+            <AiFillMediumSquare />
+          </a>
         </div>
       </div>
-      <Vitrine
-        title="Projects"
-        color="#4f3a9b"
-        cards={GITHUB_REPOS}
-        type="Projects"
-        link="https://github.com/guidolingip1"
-      />
-      <Vitrine
-        title="Blog posts"
-        color="#ff5c8d"
-        cards={BLOG_POSTS}
-        type="Posts"
-        link="https://medium.com/@guilhermeguidolin"
-      />
     </div>
   );
 };
